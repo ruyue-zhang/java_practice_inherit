@@ -31,6 +31,6 @@ public class Animal {
     }
 
     public void sleep() {
-        System.out.println("animal sleep!");
+        System.out.println("睡觉了！");
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Eagle extends Bird {
     private String[] food;
 
@@ -16,7 +18,7 @@ public class Eagle extends Bird {
         this.food = food;
     }
 
-    public void eatWay() {
-
+    public void eat(String[] food) {
+        Arrays.stream(food).forEach(System.out::print);
     }
 }

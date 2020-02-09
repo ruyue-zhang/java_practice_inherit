@@ -16,8 +16,8 @@ public class Bird extends Animal{
         this.flySpeed = flySpeed;
     }
 
-    public void flyWay() {
-        System.out.println("Birds fly way!");
+    public void fly() {
+        System.out.print("翱翔天空!");
     }
 
 }
