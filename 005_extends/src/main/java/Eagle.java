@@ -19,6 +19,6 @@ public class Eagle extends Bird {
     }
 
     public void eat(String[] food) {
-        Arrays.stream(food).forEach(System.out::print);
+        Arrays.stream(food).forEach(System.out::println);
     }
 }

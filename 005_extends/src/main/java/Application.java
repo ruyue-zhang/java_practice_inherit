@@ -11,13 +11,11 @@ public class Application {
     public static void main(String[] args) {
         String[] food = {"兔子"};
         Eagle eagle = new Eagle(4, 5.0, 10, food);
-        System.out.print(eagle.getAge() + "岁的老鹰,体重" + eagle.getWeight() + "kg,这只鹰只吃");
-        Arrays.stream(eagle.getFood()).forEach(System.out::print);
-        System.out.print(",某天");
+        System.out.println(eagle.getAge());
+        System.out.println(eagle.getWeight());
+        Arrays.stream(eagle.getFood()).forEach(System.out::println);
         eagle.fly();
-        System.out.print("在饥肠辘辘之际捕食了");
         eagle.eat(food);
-        System.out.print(",");
         eagle.sleep();
     }
 }

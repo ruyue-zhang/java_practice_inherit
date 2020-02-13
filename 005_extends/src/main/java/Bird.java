@@ -17,7 +17,7 @@ public class Bird extends Animal{
     }
 
     public void fly() {
-        System.out.print("翱翔天空!");
+        System.out.println("翱翔天空!");
     }
 
 }
